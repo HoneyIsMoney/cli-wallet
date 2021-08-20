@@ -8,7 +8,7 @@ from pathlib import Path
 import completer
 
 
-wallet_completer = NestedCompleter.from_nested_dict(completer.words
+wallet_completer = NestedCompleter.from_nested_dict(completer.words)
 seed_path = str(Path.home()) + '/.wallet/seed.txt'
 cursor = 'Ξ '
 
